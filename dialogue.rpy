@@ -1,3 +1,11 @@
+# Register the submod
+init -990 python:
+    store.mas_submod_utils.Submod(
+        author="QuadILOP1",
+        name="WGsWholesomeSubmod",
+        description="Interact with Monika in wholesome ways~",
+        version="0.1",
+    )
 init 5 python:
     addEvent(
         Event(
@@ -41,20 +49,13 @@ label monika_peck:
     call monika_kissing_motion(duration=0.5, initial_exp="6hubsa", final_exp="6tkbfu", fade_duration=0.5)
     return
 
-# Register the submod
-init -990 python:
-    store.mas_submod_utils.Submod(
-        author="QuadILOP1",
-        name="WGs-Wholesome-Submod",
-        description="Interact with Monika in wholesome ways~",
-        version="0.1",
-    )
+
 
 # Register the updater
 init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
-            submod="WGs-Wholesome-Submod",
+            submod="WGsWholesomeSubmod",
             user_name="QuadILOP1",
             repository_name="WG-WholesomeSubmod"
         )
