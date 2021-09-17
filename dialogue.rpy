@@ -44,7 +44,7 @@ label monika_peck:
 # Register the submod
 init -990 python:
     store.mas_submod_utils.Submod(
-        author="Willum#2004",
+        author="QuadILOP1",
         name="WG's Wholesome Submod",
         description="Interact with Monika in wholesome ways~",
         version="1.0",
