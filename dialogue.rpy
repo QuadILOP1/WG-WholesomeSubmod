@@ -45,16 +45,16 @@ label monika_peck:
 init -990 python:
     store.mas_submod_utils.Submod(
         author="QuadILOP1",
-        name="WG's Wholesome Submod",
+        name="WGs-Wholesome-Submod",
         description="Interact with Monika in wholesome ways~",
-        version="1.0",
+        version="0.1",
     )
 
 # Register the updater
 init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
-            submod="WG's Wholesome Submod",
+            submod="WGs-Wholesome-Submod",
             user_name="QuadILOP1",
             repository_name="WG-WholesomeSubmod"
         )
