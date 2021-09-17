@@ -36,7 +36,7 @@ label monika_peck:
     m 3ttbla "Always keeping me on my toes huh?"
     show m 2gtbla
     pause 0.8
-    m 2mtbla
+    show m 2mtbla
     pause 0.8
     call monika_kissing_motion(duration=0.5, initial_exp="6hubsa", final_exp="6tkbfu", fade_duration=0.5)
     return
