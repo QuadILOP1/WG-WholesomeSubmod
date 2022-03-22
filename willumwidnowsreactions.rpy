@@ -2,7 +2,7 @@ init 5 python:
     addEvent(
         Event(
             persistent._mas_windowreacts_database,
-            eventlabel="mas_wrs_groove",
+            eventlabel="WG_wrs_groove",
             category=["Groove Music"],
             rules={
                 "notif-group": "Window Reactions",
@@ -15,7 +15,7 @@ init 5 python:
         code="WRS"
     )
 
-label mas_wrs_groove:
+label WG_wrs_groove:
     $ wrs_success = mas_display_notif(
         m_name,
         [
@@ -34,7 +34,7 @@ init 5 python:
     addEvent(
         Event(
             persistent._mas_windowreacts_database,
-            eventlabel="mas_wrs_vscode",
+            eventlabel="WG_wrs_vscode",
             category=["Visual Studio Code"],
             rules={
                 "notif-group": "Window Reactions",
@@ -47,7 +47,7 @@ init 5 python:
         code="WRS"
     )
 
-label mas_wrs_vscode:
+label WG_wrs_vscode:
     $ wrs_success = mas_display_notif(
         m_name,
         [

@@ -11,7 +11,7 @@ init 5 python:
         )
     )
 
-label monika_pat:
+label monika_pat_WG:
     m 5fsbfu "Mmm~ That feels nice."
     m 5hsbfu "Keep patting my head [mas_get_player_nickname()]~"
     m "Mmmmmmm~"
