@@ -2,7 +2,7 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="monika_pat",
+            eventlabel="monika_pat_WG",
             category=["monika", "misc"],
             prompt="Pat Monika's Head",
             random=False,
