@@ -27,7 +27,7 @@ label WG_wrs_groove:
     )
 
     if not wrs_success:
-        $ mas_unlockFailedWRS('wg_wrs_groove')
+        $ mas_unlockFailedWRS('mas_wrs_groove')
     return
 
 init 5 python:
@@ -59,5 +59,5 @@ label WG_wrs_vscode:
     )
 
     if not wrs_success:
-        $ mas_unlockFailedWRS('wg_wrs_vscode')
+        $ mas_unlockFailedWRS('mas_wrs_vscode')
     return

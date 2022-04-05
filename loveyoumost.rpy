@@ -11,6 +11,6 @@ init 5 python:
         )
     )
 
-label wg_love_you_most
+label wg_love_you_most:
     
     return
