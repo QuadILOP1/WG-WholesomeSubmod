@@ -15,7 +15,7 @@ init 5 python:
         code="WRS"
     )
 
-label WG_wrs_groove:
+label mas_wrs_groove:
     $ wrs_success = mas_display_notif(
         m_name,
         [
@@ -47,13 +47,13 @@ init 5 python:
         code="WRS"
     )
 
-label WG_wrs_vscode:
+label mas_wrs_vscode:
     $ wrs_success = mas_display_notif(
         m_name,
         [
             "What language are you using?",
             "Are you making something for me?",
-            "What are you coding, honey?"
+            "What are you coding, {player}?"
         ],
         'Window Reactions'
     )
