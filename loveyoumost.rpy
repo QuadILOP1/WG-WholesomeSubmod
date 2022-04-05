@@ -10,3 +10,7 @@ init 5 python:
             aff_range=(mas_aff.LOVE, None)
         )
     )
+
+label wg_love_you_most
+    
+    return
