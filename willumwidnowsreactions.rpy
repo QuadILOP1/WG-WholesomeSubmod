@@ -53,7 +53,7 @@ label mas_wrs_vscode:
         [
             "What language are you using?",
             "Are you making something for me?",
-            "What are you coding, {player}?"
+            "What are you coding?"
         ],
         'Window Reactions'
     )
