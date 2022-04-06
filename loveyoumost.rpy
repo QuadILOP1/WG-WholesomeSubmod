@@ -1,6 +1,3 @@
-from datetime import date
-import calendar
-
 init 5 python:
     addEvent(
         Event(
