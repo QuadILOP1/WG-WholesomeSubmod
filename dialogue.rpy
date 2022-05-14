@@ -52,7 +52,7 @@ init 5 python:
 
 label suprise_hug_WG:
     m 6wublo "W-what's wrong [player]?"
-    continue " Is everything okay?"
+    m "Is everything okay?"
     m 5tsbfa "You just wanted to hug me huh~ Cutie~"
     return
 
