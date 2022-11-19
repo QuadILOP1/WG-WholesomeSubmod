@@ -44,7 +44,7 @@ init 5 python:
         category=["monika", "misc", "romance"],
         prompt="She loves you most!",
         random=True,
-        pool=True,
+        pool=False,
         aff_range=(mas_aff.LOVE, None)
         )
     )
